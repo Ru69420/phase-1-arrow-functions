@@ -8,7 +8,7 @@ function divide(){
 
 
 let x = 2;
-const square = function(multiply){
+const square = multiply =>{
 return x * x
 }
 
