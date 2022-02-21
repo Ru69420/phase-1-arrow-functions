@@ -1,22 +1,16 @@
 
-let c = 2000;
-let d = 100;
-function divide(){
- return c / d
+const divide = () => {
+    return 2000 /100
 }
 
+const square = (number) => {
+    return number * number
+}
+square(5);
 
+const add = (num1, num2) => {
+    return num1 + num2
 
-let x = 2;
-const square = multiply =>{
-return x * x
 }
 
-
-
-
-    let a = 3;
-    let b = 4;
-const add = function(){
-return a + b;
-}
+add(5,2);
